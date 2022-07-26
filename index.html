@@ -14,54 +14,40 @@
         <title>OCDNC</title>
     </head>
 
-    <!-- INICIO BODY -->
-
     <body>
-
-        <!-- INICIO HEADER -->
 
         <header>
 
-            <!-- INICIO NAV -->
-
             <div class="flex justify-between md:px-[100px] md:items-center shadow-2xl">
-                <img src="Materiales/1231.png" class="p-[15px] w-[150px] md:w-[200px] md:hidden">
+                <img src="assets/1231.png" class="p-[15px] w-[150px] md:w-[200px] md:hidden">
                 <div class="hidden md:flex md:w-[50%] md:justify-around md:items-center md:font-medium md:h-[100px]">
-                    <img src="Materiales/Oconc.png" class="w-[150px] md:w-[200px]">
-                    <a href="#nosotros" class="hover:shadow-xl">Tokenomics</a>
-                    <a href="#noticiasWeb" class="hover:shadow-xl">Roadmap</a>
-                    <a href="#contacto" class="hover:shadow-xl">Help</a>
+                    <img src="assets/Oconc.png" class="w-[150px] md:w-[200px]">
+                    <a href="#tokenomics" class="hover:shadow-xl">Tokenomics</a>
+                    <a href="#roadmapWeb" class="hover:shadow-xl">Roadmap</a>
+                    <a href="#contact" class="hover:shadow-xl">Help</a>
                 </div>
                 <button class="rounded-xl bg-[#DC3545] text-white text-center w-[100px] h-[30px]  font-bold md:w-[150px] md:h-[40px] md:rounded-3xl hidden md:block hover:bg-[#DC3545]" id="open">OPEN DN</button>
-
-                <!-- INICIO NAV MOBILE -->
 
                 <div class="mobile-menu md:hidden p-[15px]">
                     <button id="botonMenu"><i class="fa-solid fa-bars text-2xl"></i></button>
                 </div>
 
                 <nav  id="contenedorMenuMobile" style="display:none;" class="text-black navegacion absolute w-full mt-[62px] text-center font-bold bg-white/80 md:hidden shadow-2xl">
-                    <a href="#nosotros">Nosotros</a>
-                    <a href="#noticiasMobile">Noticias</a>
-                    <a href="#contacto">Ayuda</a>
+                    <a href="#tokenomics">Tokenomics</a>
+                    <a href="#roadmapMobile">Roadmap</a>
+                    <a href="#contact">Help</a>
                     <button class=" rounded-xl bg-[#DC354527CC] text-white text-center w-[100px] h-[30px] my-[20px] font-bold" id="botonModalMobile">Ingresar</button>
                 </nav>
 
-                <!-- FIN NAV MOBILE -->
-
             </div>
-
-            <!-- FIN NAV -->
-
-            <!-- INICIO MODAL -->
 
             <div class="modal_container bg-black/75 transition-opacity opacity-0 pointer-events-none w-[100vw] fixed justify-center items-center flex h-[100vh] md:left-0 top-[0]" id="modal_container">
                 <div class="modal bg-white rounded-xl md:w-[1100px] md:h-[600px] m-[20px]">
                     <section class="bg-white p-[5px] md:p-[0]md:w-[60%] md:h-[630px] flex flex-col md:flex-row rounded-xl border-solid border-white border-[3px]">
-                        <div class="flex p-[10px] justify-end bg-[url('Materiales/imagen-modal.JPG')] md:hidden w-full h-[300px] bg-center bg-cover rounded-xl">
+                        <div class="flex p-[10px] justify-end bg-[url('assets/imagen-modal.JPG')] md:hidden w-full h-[300px] bg-center bg-cover rounded-xl">
                             <a href="#"><i class="fa-solid fa-xmark text-4xl text-white pr-[5px]" id="closeMobile"></i></a>
                         </div>
-                        <img src="Materiales/imagen-modal.JPG" alt="img-modal" class="hidden md:block w-[500px] h-[593px] rounded-xl object-cover">
+                        <img src="assets/imagen-modal.JPG" alt="img-modal" class="hidden md:block w-[500px] h-[593px] rounded-xl object-cover">
                         <div class="flex flex-col justify-center">
                             <div class="flex justify-between items-center ml-[50px] mb-[30px]">
                                 <div class="flex items-center">
@@ -73,7 +59,7 @@
                                 <h1 class="font-bold text-2xl mb-[30px]">DEEZ NUTS</h1>
                                 <div class="bg-[#DC3545] flex md:w-[500px] h-[150px] md:h-[200px] rounded-xl mb-[30px] hover:shadow-2xl border-grey-100 border-solid border-[1px]">
                                     <div class="flex items-center justify-center w-[125px]">
-                                        <img src="Materiales/icono-maletin.png" alt="icono-maletin" class="w-[60px] h-[50px]">
+                                        <img src="assets/icono-maletin.png" alt="icono-maletin" class="w-[60px] h-[50px]">
                                     </div>
                                     <div class="bg-white w-[75%] flex flex-col p-[25px] md:pl-[50px] justify-center rounded-r-xl">
                                         <div>
@@ -88,33 +74,22 @@
                     </section>
                 </div>
             </div>
-            <!-- FIN MODAL -->
 
-            <!-- IMG HEADER -->
-
-            <section class=" bg-[url('Materiales/manos.jpg')] px-[20px] h-[500px] bg-cover bg-center flex flex-col text-white align-center justify-center md:h-[700px]">
+            <section class=" bg-[url('assets/manos.jpg')] px-[20px] h-[500px] bg-cover bg-center flex flex-col text-white align-center justify-center md:h-[700px]">
                 <h1 class="text-4xl md:text-2xl font-bold text-center mb-[30px] md:text-[60px] md:font-normal md:mb-[50px]">OCDNC - Bringing a Whole New Meaning to HYPER Deflationary <br><br> Tokens</h1>
-                <p class="text-center md:hidden">Deeze Nuts cumming at you quicker than interpol on Kyle Davies wife.</p>
+                <p class="text-center hidden md:block md:text-[20px]">Deeze Nuts cumming at you quicker than interpol on Kyle Davies wife.</p>
                 <p class="text-center hidden md:block md:text-[20px]">Unlike 3AC though this little codsack is going to actually give back by buying back with your funds, instead of leasing a yacht.</p>
                 <p class="text-center hidden md:block md:text-[20px]">So sit back, grab some nuts and munch on deez while we run the chart up Do Kwon style.</p>
             </section>
 
-            <!-- FIN IMG HEADER -->
-
         </header>
-
-        <!-- FIN HEADER -->
-
-        <!-- INICIO MAIN -->
 
         <main class="font-['DM Sans']">
 
-            <!-- INICIO BLOQUE AZUL -->
-
-            <section class="bg-[#DC3545] text-white md:h-[1025px]" id="nosotros">
+            <section class="bg-[#DC3545] text-white md:h-[1025px]" id="tokenomics">
                 <hr>
                 <div class="flex flex-col md:flex-row md:px-[100px] md:pt-[100px] md:mb-[25px] md:items-center">
-                    <div class="md:w-[50%] md:h-[600px] bg-[url('Materiales/oficina.png')] h-[300px] bg-cover bg-center w-full md:ml-[-10px]"></div>
+                    <div class="md:w-[50%] md:h-[600px] bg-[url('assets/oficina.png')] h-[300px] bg-cover bg-center w-full md:ml-[-10px]"></div>
                     <div class="mt-[100px] mb-[100px] md:mt-[15px] md:mb-[15px] md:ml-[100px] px-[20px]">
                         <h1 class="text-2xl font-bold text-center mb-[20px] md:text-left md:text-[40px] font-normal md:mb-[50px]">Tokenomics</h1>
                         <p class="text-center text-[14px] md:hidden">10% Buy tax<br>10% Sell tax<br><br>Total Supply<br>1,000,000 $OCDNC</p>
@@ -131,11 +106,8 @@
                 </div>
             </section>
 
-            <!-- FIN BLOQUE AZUL -->
 
-            <!-- INICIO NOTICIAS WEB-->
-
-            <section class="bg-[#DC3545] hidden md:block" id="noticiasWeb">
+            <section class="bg-[#DC3545] hidden md:block" id="roadmapWeb">
                 <div class="pb-[30px] text-center text-white">
                     <h1 class="text-4xl pb-[15px] pt-[100px]">Roadmap</h1>
                     <a href="#">See all</a>
@@ -146,16 +118,16 @@
                 <div class="overflow-x-scroll contenedorScroll">
                     <div class="flex px-[150px] bg-[#DC3545] h-[700px] w-[151%] items-center justify-between contenedorScroll">
                         <div class="w-[380px] bg-white h-[550px] rounded-xl">
-                            <div class="bg-[url('Materiales/img1.jpg')] p-[20px] w-full h-[280px] bg-cover bg-center rounded-xl flex items-end">
+                            <div class="bg-[url('assets/img1.jpg')] p-[20px] w-full h-[280px] bg-cover bg-center rounded-xl flex items-end">
                                 <p class="rounded-xl bg-[#DC3545] text-white text-center w-[80px] font-bold rounded-3xl">Fees</p>
                             </div>
                             <div class="p-[20px] flex justify-between">
                                 <div class="flex">
-                                    <img src="Materiales/icono-calendario.png" class="w-[20px] mr-[10px]"></img>
+                                    <img src="assets/icono-calendario.png" class="w-[20px] mr-[10px]"></img>
                                     <p>At launch</p>
                                 </div>
                                 <div class="flex">
-                                    <img src="Materiales/icono-reloj.png" class="w-[25px] mr-[10px]"></img>
+                                    <img src="assets/icono-reloj.png" class="w-[25px] mr-[10px]"></img>
                                     <p>30min</p>
                                 </div>
                             </div>
@@ -163,21 +135,21 @@
                                 <h1 class="font-bold mb-[30px]">Phase 1</h1>
                                 <p>10% Buy tax. <br>10% Sell tax. <br>Marketing funds.</p>
                                 <div class="flex justify-end items-center mt-[20px]">
-                                    <img src="Materiales/icono-flecha.png" alt="flecha-icon" class="h-[15px] mr-[10px]">
+                                    <img src="assets/icono-flecha.png" alt="flecha-icon" class="h-[15px] mr-[10px]">
                                 </div>
                             </div>
                         </div>
                         <div class="w-[380px] bg-white h-[550px] rounded-xl">
-                            <div class="bg-[url('Materiales/img2.jpg')] p-[20px] w-full h-[280px] bg-cover bg-center rounded-xl flex items-end">
+                            <div class="bg-[url('assets/img2.jpg')] p-[20px] w-full h-[280px] bg-cover bg-center rounded-xl flex items-end">
                                 <p class="rounded-xl bg-[#DC3545] text-white text-center w-[80px] font-bold rounded-3xl">Fees</p>
                             </div>
                             <div class="p-[20px] flex justify-between">
                                 <div class="flex">
-                                    <img src="Materiales/icono-calendario.png" class="w-[20px] mr-[10px]"></img>
+                                    <img src="assets/icono-calendario.png" class="w-[20px] mr-[10px]"></img>
                                     <p>After these 30 minutes</p>
                                 </div>
                                 <div class="flex">
-                                    <img src="Materiales/icono-reloj.png" class="w-[25px] mr-[10px]"></img>
+                                    <img src="assets/icono-reloj.png" class="w-[25px] mr-[10px]"></img>
                                     <p>Infinite</p>
                                 </div>
                             </div>
@@ -185,21 +157,21 @@
                                 <h1 class="font-bold mb-[30px]">Phase 2</h1>
                                 <p>10% Buy tax.<br>10% Sell tax. <br>All transaction burned.</p>
                                 <div class="flex justify-end items-center mt-[20px]">
-                                    <img src="Materiales/icono-flecha.png" alt="flecha-icon" class="h-[15px] mr-[10px]">
+                                    <img src="assets/icono-flecha.png" alt="flecha-icon" class="h-[15px] mr-[10px]">
                                 </div>
                             </div>
                         </div>
                         <div class="w-[380px] bg-white h-[550px] rounded-xl">
-                            <div class="bg-[url('Materiales/img3.jpg')] p-[20px] w-full h-[280px] bg-cover bg-center rounded-xl flex items-end">
+                            <div class="bg-[url('assets/img3.jpg')] p-[20px] w-full h-[280px] bg-cover bg-center rounded-xl flex items-end">
                                 <p class="rounded-xl bg-[#DC3545] text-white text-center w-[80px] font-bold rounded-3xl">Fees</p>
                             </div>
                             <div class="p-[20px] flex justify-between">
                                 <div class="flex">
-                                    <img src="Materiales/icono-calendario.png" class="w-[20px] mr-[10px]"></img>
+                                    <img src="assets/icono-calendario.png" class="w-[20px] mr-[10px]"></img>
                                     <p>After these infinite</p>
                                 </div>
                                 <div class="flex">
-                                    <img src="Materiales/icono-reloj.png" class="w-[25px] mr-[10px]"></img>
+                                    <img src="assets/icono-reloj.png" class="w-[25px] mr-[10px]"></img>
                                     <p>Inifinite^2</p>
                                 </div>
                             </div>
@@ -207,21 +179,16 @@
                                 <h1 class="font-bold mb-[30px]">Phase 3</h1>
                                 <p>If the rest is still not enough, there is always the DN step. <br>Go to the beginning</p>
                                 <div class="flex justify-end items-center mt-[20px]">
-                                    <img src="Materiales/icono-flecha.png" alt="flecha-icon" class="h-[15px] mr-[10px]">
+                                    <img src="assets/icono-flecha.png" alt="flecha-icon" class="h-[15px] mr-[10px]">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                 <!--FIN SLIDE WEB -->
             </section>
             
-            <!-- FIN NOTICIAS WEB -->
             
-        <!-- INICIO NOTICIAS MOBILE -->
-            
-            <section class="bg-[#DC3545] text-white md:hidden flex flex-col items-center pb-[20px]" id="noticiasMobile">
+            <section class="bg-[#DC3545] text-white md:hidden flex flex-col items-center pb-[20px]" id="roadmapMobile">
                 <div class="pb-[30px] text-center">
                     <h1 class="mt-[100px] text-4xl pb-[15px] pt-[30px]">News</h1>
                     <a href="#">See all</a>
@@ -230,19 +197,19 @@
                 <section id="slider-container" class="w-[370px] h-[370px] overflow-hidden relative mt-[100px] mb-[100px]">
                     <div id="slide-0" class="slide w-full h-[100%] absolute fade">
                         <div class="numbertext text-[#f2f2f2] text-[12px] pt-[8px] pl-[12px] absolute top-0">1 / 6</div>
-                        <img src="Materiales/img1.jpg" alt="Img 0" class="w-full h-[100%] object-cover">
+                        <img src="assets/img1.jpg" alt="Img 0" class="w-full h-[100%] object-cover">
                         <a href="https://www.pexels.com/es-es/foto/ciudad-arte-edificio-arquitectura-9221328/" target="_blank" class="text text-[#f2f2f2] pb-[50px] ml-[140px] absolute bottom-[8px] text-center text-2xl">News 1</a>
                     </div>
 
                     <div id="slide-1" class="slide fade">
                         <div class="numbertext text-[#f2f2f2] text-[12px] pt-[8px] pl-[12px] absolute top-0">2 / 6</div>
-                        <img src="Materiales/img2.jpg" alt="Img 1">
+                        <img src="assets/img2.jpg" alt="Img 1">
                         <a href="https://www.pexels.com/es-es/foto/carretera-coche-vehiculo-larga-exposicion-9864031/" target="_blank" class="text text-[#f2f2f2] pb-[50px] ml-[140px] absolute bottom-[8px] text-center text-2xl">News 2</a>
                     </div>
 
                     <div id="slide-2" class="slide fade">
                         <div class="numbertext text-[#f2f2f2] text-[12px] pt-[8px] pl-[12px] absolute top-0">3 / 6</div>
-                        <img src="Materiales/img3.jpg" alt="Img 2">
+                        <img src="assets/img3.jpg" alt="Img 2">
                         <a href="https://www.pexels.com/es-es/foto/comida-postre-pasta-tiro-vertical-11031106/" target="_blank" class="text text-[#f2f2f2] pb-[50px] ml-[140px] absolute bottom-[8px] text-center text-2xl">News 3</a>
                     </div>
                     <div id="arrows-wrapper">
@@ -261,12 +228,8 @@
                 </section>
             </section>
 
-            <!-- FIN NOTICIAS MOBILE -->
-
-            <!-- INICIO CONTACTO -->
-
-            <section id="contacto" class="md:px-[150px] md:flex md:justify-around md:pt-[100px]">
-                <img src="Materiales/laptop-escritorio.jpg" alt="laptop" class="h-[300px] md:w-[50%] md:h-[350px] object-cover md:pr-[30px] md:mb-[200px]">
+            <section id="contact" class="md:px-[150px] md:flex md:justify-around md:pt-[100px]">
+                <img src="assets/laptop-escritorio.jpg" alt="laptop" class="h-[300px] md:w-[50%] md:h-[350px] object-cover md:pr-[30px] md:mb-[200px]">
                 <div class="flex flex-col items-center md:justify-between md:h-[350px] mt-[50px] md:mt-[0] px-[20px]">
                     <h1 class="text-center my-[50px] font-bold text-4xl md:text-[60px] md:font-normal md:my-[0px]">Contact Us</h1>
                     <form class="flex flex-col md:flex-row md:items-center">
@@ -286,13 +249,7 @@
                 </div>
             </section>
 
-            <!-- FIN CONTACTO -->
-
         </main>
-
-        <!-- FIN MAIN -->
-
-        <!-- INICIO FOOTER -->
 
         <footer>
             <div class="bg-[#DC3545] h-[10px] mt-[50px]"></div>
@@ -303,8 +260,8 @@
                         <img src="materiales/xxxx.png" alt="logo" class="md:h-[150px] w-[200px] mb-[30px] mt-[30px] md:m-[0px] flex items-center">
                         <div class="text-center text-white md:text-left md:ml-[75px]">
                             <ul class="mb-[30px]">
-                                <li><a href="#nosotros">About us</a></li>
-                                <li><a href="#contacto">Contact</a></li>
+                                <li><a href="#tokenomics">Tokenomics</a></li>
+                                <li><a href="#contact">Contact</a></li>
                                 <li><a href="#"></a>Tokenomics</li>
                             </ul>
                         </div>
@@ -325,12 +282,6 @@
             </div>
         </footer>
 
-        <!-- FIN FOOTER -->
-
     </body>
 
-    <!-- FIN BODY -->
-
 </html>
-
-<!-- FIN SITIO WEB -->
